@@ -1,0 +1,61 @@
+header{
+    background-image: linear-gradient( rgb(85, 219, 148), white);
+}
+#rot{
+    transform: rotate(25deg);
+    align-items: end;
+
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+#grad1{
+    text-align: left;
+    font-family: "Times New Roman";
+    height: 150px;
+    background-image: linear-gradient(white,rgb(67, 158, 239),white);
+}
+.card-img-top {
+    width: 300px;
+    /* Adjust the width as needed */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    /* Slightly increase the size */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    /* Add shadow for a popping effect */
+}
+.main1{
+    padding: 25px;
+    background-image: radial-gradient(rgb(66, 154, 151),white);
+}
+.move{
+    perspective: 1000px;
+    background: rgb(241, 236, 236);
+    position: relative;
+    animation: mymove 5s infinite;
+}
+.contact{
+    padding: 25px;
+        background-image: radial-gradient(rgb(126, 135, 135), white);
+    
+}
+
+#Contact{
+
+        background-image: radial-gradient(rgb(126, 135, 135), white);
+
+}
+
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+    }
+}
